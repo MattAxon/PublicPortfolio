@@ -1,0 +1,21 @@
+.aboutPage{
+    .pageContent{
+        .bigText{
+            padding-right: .5vw;
+            font-size: 44px;
+        }
+        .article{
+            margin: 2.5vw;
+            .firstParagraph{
+                
+                font-size: medium;
+            }
+            .secondParagraph{
+                font-size: medium;
+            }
+            .skillsHeader{
+                text-align: center !important;
+            }
+        }
+    }
+}

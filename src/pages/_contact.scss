@@ -1,0 +1,76 @@
+.contactPage{
+    
+    .h1{
+        text-align: center;
+    }
+    article{
+        text-align: center;
+        p{
+           text-align: center !important; 
+        }
+        margin: 2.5vw;
+        #pageBody{
+            div{
+                align-content: center;
+                max-width: 40vw;
+                border: black solid .25px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    #emailRow{
+                        #emailIconCol{
+                           
+                            #emailIcon{
+                                color: #6610f2;
+                                font-size: 72px;
+                            }
+                            
+                        }
+                        #emailTextBoxCol{
+                            
+                            #h2{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                a:hover{
+                    
+                    #emailRow{
+                        
+                        #emailIconCol{
+                            #emailIcon{
+                                color: (#6610f2 + 100); 
+                            }
+                        }
+                    }
+                }
+                .linkedInLink:hover{
+                    #linkedInRow{
+                        #linkedInIconCol{
+                            #linkedInIcon{
+                                color: (#6610f2 + 100);
+                            }
+                        }
+                    }
+                }
+                #linkedInRow{
+                    #linkedInIconCol{
+                        #linkedInIcon{
+                            color: #6610f2 ;
+                            font-size: 80px;
+                        }
+                    }
+                }
+                #linkedInTextBoxCol{
+                    h2{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+#table{
+    border-collapse:collapse;
+}

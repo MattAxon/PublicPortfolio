@@ -1,0 +1,26 @@
+$navbar-color: #6610f2;
+
+.myNavbar{
+    background-color: $navbar-color;
+    width: auto;
+}
+
+.nav{
+    width: 100%;
+
+}
+.brandName{
+    padding-left: 10px;
+}
+.navlink.active{
+    background-color: $navbar-color - 50 !important;
+
+}
+
+.navlink:hover{
+    background-color: $navbar-color + 100 !important;
+}
+
+.collapse.show{
+    padding-left: 2vw;
+}

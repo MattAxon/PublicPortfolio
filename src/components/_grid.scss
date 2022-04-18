@@ -1,0 +1,23 @@
+.box{
+    -webkit-box-shadow: 0px, 12px, 18px, -6px, rgba(0, 0, 0, 0.589);
+    box-shadow: 0px, 12px, 18px, -6px, rgba(0, 0, 0, 0.589);
+    max-height: 360px;
+    overflow: hidden;
+    max-width: 75vw;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 90%;
+    margin: auto;
+    align-self: center;
+    width: 100%;
+}
+
+.grid > div{
+    flex-basis: calc(33.33333% - 40px);
+}

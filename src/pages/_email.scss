@@ -1,0 +1,76 @@
+#pageContent{
+    align-content: center;
+    #formCard{
+        align-self: center;
+        margin: auto;
+        max-width: 80vw;
+        min-width: 20vw;
+        #formCardBody{
+            #form{
+                margin: auto;
+                #firstRow{
+                    #row1col1{
+                        #nameLabel{
+                        color: black;
+                    }
+                    #nameGroup{
+                        max-width: 75vw;
+                        min-width: 10vw;
+                        #nameInput{
+                            max-width: 70vw;
+                            min-width: 7.5vw;
+                        }
+                    }   
+                }   
+                #row1col2{
+                    #subjectLabel{
+                        color: black;
+                    }
+                    #subjectGroup{
+                        max-width: 80vw;
+                        min-width: 10vw;
+                        #subjectInput{
+                            max-width: 50vw;
+                            min-width: 7.5vw;
+                        }
+                    }
+                }    
+            }
+            #secondRow{
+                #emailLabel{
+                    color: black;
+                }
+                #emailGroup{
+                    max-width: 100vw;
+                    #emailInput{
+                        max-width: 100vw;
+                    }
+                }
+            }
+            #thirdRow{
+                #messageLabel{
+                    color: black;
+                }
+                #messageGroup{
+                    max-width: 100vw;
+                    #messageInput{
+                        max-width: 100vw;
+                        min-height: 35vh;
+                    }
+                }
+            }  
+            #fourthRow{
+                margin-top: 2vh;
+                margin-left: 0.25vw;
+                #submitBtn{
+                    background-color: #6610f2;
+                    width: auto;
+                }
+                #submitBtn:hover{
+                    background-color: (#6610f2 + 50);
+                }
+            } 
+        }
+        }
+    }
+}
